@@ -1,0 +1,55 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.14
+MinimumVisualStudioVersion = 15.0.26124.0
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{BD34695F-5F35-485F-B96F-C4A026934C76}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Phaka.Scheduling", "src\Phaka.Scheduling\Phaka.Scheduling.csproj", "{7DE335D1-C054-4506-9ACA-FC091082E057}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{CB4379BB-8F12-4090-9B9C-0EAC80724D1B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Phaka.Scheduling.UnitTests", "test\Phaka.Scheduling.UnitTests\Phaka.Scheduling.UnitTests.csproj", "{BFE55639-0352-44CF-8DA4-520A87A502AC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7DE335D1-C054-4506-9ACA-FC091082E057}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7DE335D1-C054-4506-9ACA-FC091082E057}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7DE335D1-C054-4506-9ACA-FC091082E057}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{7DE335D1-C054-4506-9ACA-FC091082E057}.Debug|x64.Build.0 = Debug|Any CPU
+		{7DE335D1-C054-4506-9ACA-FC091082E057}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{7DE335D1-C054-4506-9ACA-FC091082E057}.Debug|x86.Build.0 = Debug|Any CPU
+		{7DE335D1-C054-4506-9ACA-FC091082E057}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7DE335D1-C054-4506-9ACA-FC091082E057}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7DE335D1-C054-4506-9ACA-FC091082E057}.Release|x64.ActiveCfg = Release|Any CPU
+		{7DE335D1-C054-4506-9ACA-FC091082E057}.Release|x64.Build.0 = Release|Any CPU
+		{7DE335D1-C054-4506-9ACA-FC091082E057}.Release|x86.ActiveCfg = Release|Any CPU
+		{7DE335D1-C054-4506-9ACA-FC091082E057}.Release|x86.Build.0 = Release|Any CPU
+		{BFE55639-0352-44CF-8DA4-520A87A502AC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFE55639-0352-44CF-8DA4-520A87A502AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFE55639-0352-44CF-8DA4-520A87A502AC}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{BFE55639-0352-44CF-8DA4-520A87A502AC}.Debug|x64.Build.0 = Debug|Any CPU
+		{BFE55639-0352-44CF-8DA4-520A87A502AC}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{BFE55639-0352-44CF-8DA4-520A87A502AC}.Debug|x86.Build.0 = Debug|Any CPU
+		{BFE55639-0352-44CF-8DA4-520A87A502AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFE55639-0352-44CF-8DA4-520A87A502AC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BFE55639-0352-44CF-8DA4-520A87A502AC}.Release|x64.ActiveCfg = Release|Any CPU
+		{BFE55639-0352-44CF-8DA4-520A87A502AC}.Release|x64.Build.0 = Release|Any CPU
+		{BFE55639-0352-44CF-8DA4-520A87A502AC}.Release|x86.ActiveCfg = Release|Any CPU
+		{BFE55639-0352-44CF-8DA4-520A87A502AC}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7DE335D1-C054-4506-9ACA-FC091082E057} = {BD34695F-5F35-485F-B96F-C4A026934C76}
+		{BFE55639-0352-44CF-8DA4-520A87A502AC} = {CB4379BB-8F12-4090-9B9C-0EAC80724D1B}
+	EndGlobalSection
+EndGlobal

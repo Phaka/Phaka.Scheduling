@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard1.3</TargetFramework>
+     <Authors>Werner Strydom</Authors>
+    <Company>Werner Strydom</Company>
+    <Product>Phaka</Product>
+    <Description>Impelements a scheduler that can be used to optimally schedule activities.</Description>
+    <Copyright>Copyright (c) 2017 Werner Strydom</Copyright>
+    <PackageProjectUrl>https://github.com/Phaka/Phaka.Scheduling</PackageProjectUrl>
+    <PackageLicenseUrl>https://github.com/Phaka/Phaka.Scheduling/blob/master/LICENSE</PackageLicenseUrl>
+    <RepositoryUrl>https://github.com/Phaka/Phaka.Scheduling</RepositoryUrl>
+    <RepositoryType>GIT</RepositoryType>
+    <NeutralLanguage>en-US</NeutralLanguage>
+    <PackageTags>task scheduler graph phaka</PackageTags>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Phaka.Collections" Version="1.0.3" />
+    <PackageReference Include="System.Threading" Version="4.3.0" />
+  </ItemGroup>
+
+</Project>
